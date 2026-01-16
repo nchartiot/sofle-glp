@@ -18,7 +18,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - UP ARROW
+  - UP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - +
@@ -29,9 +29,9 @@ layers:
   - F12
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT ARROW
-  - DOWN ARROW
-  - RIGHT ARROW
+  - LEFT
+  - DOWN
+  - RIGHT
   - {t: ▽, type: trans}
   - '-'
   - (
