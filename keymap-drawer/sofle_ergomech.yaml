@@ -1,9 +1,9 @@
 layout: {zmk_keyboard: sofle_ergomech}
 layers:
-  default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '', ESC, Q, W, E, R, T, Y, U, I, O, P, BSPC, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT, Z,
-    X, C, V, B, N, M, ',', ., /, RSHFT, MUTE, LGUI, LALT, LCTRL, lower, RET, SPACE, raise, RCTRL, RALT, RGUI, ENTER, RIGHT, UP ARROW, LEFT, DOWN]
-  lower:
-  - '&studio_unlock'
+  base: [ESCAPE, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', \, TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC, LEFT SHIFT, A, S, D, F, G, H, J, K, L, ;, '''', LEFT
+      CONTROL, Z, X, C, V, B, N, M, ',', ., /, \, MUTE, move, LALT, LEFT GUI, SPACE, BACKSPACE, code, ENTER, RCTRL, RALT, RGUI, ENTER, RIGHT, UP ARROW, LEFT, DOWN]
+  code:
+  - {t: ▽, type: trans}
   - F1
   - F2
   - F3
@@ -15,41 +15,43 @@ layers:
   - F9
   - F10
   - F11
-  - '`'
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - F12
   - {t: ▽, type: trans}
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - '*'
-  - (
-  - )
-  - '|'
   - {t: ▽, type: trans}
-  - '='
-  - '-'
+  - {t: ▽, type: trans}
+  - UP ARROW
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - +
   - '{'
   - '}'
+  - '&'
+  - '~'
+  - F12
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
+  - {t: ▽, type: trans}
+  - '-'
+  - (
+  - )
+  - '='
+  - '>'
+  - PRINTSCREEN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - _
   - '['
   - ']'
-  - ;
-  - ':'
-  - \
+  - '|'
+  - <
+  - '`'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -62,12 +64,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - A
-  - B
-  - C
-  - D
-  - E
-  raise:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  move:
   - BT CLR
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
@@ -80,7 +80,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&studio_unlock'
   - INS
   - PSCRN
   - CMENU
@@ -117,13 +117,13 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -182,13 +182,13 @@ layers:
   - ''
   - ''
   - RGB TOG
+  - {type: held}
+  - ''
   - ''
   - ''
   - ''
   - {type: held}
   - ''
-  - ''
-  - {type: held}
   - ''
   - ''
   - ''
