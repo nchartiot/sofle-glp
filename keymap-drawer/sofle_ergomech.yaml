@@ -1,7 +1,70 @@
 layout: {zmk_keyboard: sofle_ergomech}
 layers:
-  base: [ESCAPE, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', \, TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC, LEFT SHIFT, A, S, D, F, G, H, J, K, L, ;, '''', LEFT
-      CONTROL, Z, X, C, V, B, N, M, ',', ., /, \, MUTE, move, LALT, LEFT GUI, SPACE, BACKSPACE, code, ENTER, RCTRL, RALT, RGUI, ENTER, RIGHT, UP ARROW, LEFT, DOWN]
+  base:
+  - ESCAPE
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - BSPC
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - DEL
+  - LEFT SHIFT
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - ''''
+  - LEFT CONTROL
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - \
+  - {t: colemak, h: toggle}
+  - move
+  - LALT
+  - LEFT GUI
+  - SPACE
+  - BACKSPACE
+  - code
+  - ENTER
+  - RCTRL
+  - RALT
+  - RGUI
+  - ENTER
+  - RIGHT
+  - UP ARROW
+  - LEFT
+  - DOWN
   code:
   - {t: ▽, type: trans}
   - F1
@@ -132,68 +195,68 @@ layers:
   - C
   - D
   - E
-  adjust:
-  - BT CLR
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - EP TOG
-  - RGB HUD
-  - RGB HUI
-  - RGB SAD
-  - RGB SAI
-  - RGB EFF
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - RGB BRD
-  - RGB BRI
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - RGB TOG
-  - {type: held}
-  - ''
-  - ''
-  - ''
-  - ''
-  - {type: held}
-  - ''
-  - ''
-  - ''
-  - ''
-  - A
+  colemak:
+  - ESC
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - BSPC
+  - TAB
+  - Q
+  - W
+  - F
+  - P
   - B
+  - J
+  - L
+  - U
+  - Y
+  - ;
+  - DEL
+  - LEFT SHIFT
+  - A
+  - R
+  - S
+  - T
+  - G
+  - M
+  - N
+  - E
+  - I
+  - O
+  - ''''
+  - LCTRL
+  - Z
+  - X
   - C
   - D
-  - E
+  - V
+  - K
+  - H
+  - ','
+  - .
+  - /
+  - \
+  - {t: base, h: toggle}
+  - {t: move, type: held}
+  - LALT
+  - LEFT GUI
+  - SPACE
+  - BSPC
+  - {t: code, type: held}
+  - RET
+  - RCTRL
+  - RALT
+  - RIGHT GUI
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
