@@ -24,9 +24,6 @@ config I2C
 config SSD1306
     default y
 
-config SSD1306_DEFAULT_CONTRAST
-    default 128
-
 endif # ZMK_DISPLAY
 
 if LVGL
@@ -43,9 +40,6 @@ config LV_Z_BITS_PER_PIXEL
 choice LV_COLOR_DEPTH
     default LV_COLOR_DEPTH_1
 endchoice
-
-config LV_Z_FULL_REFRESH
-    default y
 
 endif # LVGL
 
